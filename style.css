@@ -1,0 +1,46 @@
+h1{
+    position: absolute;
+    top: -5px;
+    left: 40%;
+}
+
+.grid {
+    width: 200px; 
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    position: absolute;
+    left: 40%;
+    top: 70px;
+    z-index: -1;
+}
+
+.grid div {
+    height: 40px;
+    width: 40px;
+    color: black;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#start-button {
+    position: absolute;
+    left: 44%;
+    top: 475px;
+    z-index: 1;
+}
